@@ -5,3 +5,10 @@ type: kubernetes
 platform:
   os: linux
   arch: amd64
+
+steps:
+
+- name: hello
+  image: alpine
+  commands:
+  - echo "hello!"
