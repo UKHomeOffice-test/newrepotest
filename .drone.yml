@@ -11,4 +11,6 @@ steps:
 - name: hello
   image: alpine
   commands:
-  - echo "hello!"
+    - echo "hello!"
+    - sleep 5
+    - echo "bye!"
