@@ -11,6 +11,5 @@ steps:
 - name: hello
   image: alpine
   commands:
-    - echo "hello!"
-    - sleep 5
-    - echo "bye!"
+    - echo "failing as always"
+    - exit 1
